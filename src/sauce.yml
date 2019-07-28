@@ -1,0 +1,259 @@
+---
+- name: BBQSauce
+  ingredients:
+    - name: ケチャップ
+      amount: 大さじ8
+      optional: false
+    - name: ソース
+      amount: 大さじ1
+      optional: false
+    - name: 酢
+      amount: 大さじ2
+      optional: false
+    - name: すりおろし玉ねぎ
+      amount: 適量
+      optional: false
+    - name: パプリカ粉
+      amount: 適量
+      optional: true
+    - name: コリアンダー
+      amount: 適量
+      optional: false
+    - name: クミン
+      amount: 適量
+      optional: false
+    - name: はちみつ
+      amount: 適量
+      optional: true
+    - name: にんにく
+      amount: 適量
+      optional: false
+    - name: 酒
+      amount: 大さじ1
+      optional: false
+    - name: コショウ
+      amount: 適量
+      optional: false
+    - name: みりん
+      amount: 大さじ1
+      optional: false
+    - name: 水
+      amount: 大さじ2
+      optional: false
+  instructions:
+    - 加熱
+    - 絡ませる
+
+- name: 南蛮ソース
+  ingredients:
+    - name: - 醤油
+      amount: 大さじ2
+      optional: false
+    - name: - 酢
+      amount: 大さじ2
+      optional: false
+    - name: - ごま油
+      amount: 大さじ1
+      optional: false
+    - name: - 砂糖
+      amount: 小さじ2
+      optional: false
+    - name: - 生姜
+      amount: 小さじ2
+      optional: false
+    - name: - ニンニク
+      amount: 小さじ2
+      optional: false
+  instructions:
+    - 加熱
+
+- name: オニオンソース
+  ingredients:
+    - name: 玉ねぎ
+      amount: 0.5個
+      optional: false
+    - name: 醤油
+      amount: 大さじ1
+      optional: false
+    - name: 酢
+      amount: 大さじ2
+      optional: false
+    - name: はちみつ
+      amount: 大さじ1
+      optional: false
+  instructions:
+    - 加熱
+
+- name: トマトソース
+  ingredients:
+    - name: ボールドトマト
+      amount: 1缶
+      optional: false
+    - name: ニンニク
+      amount: 適量
+      optional: false
+    - name: オリーブオイル
+      amount: 適量
+      optional: false
+    - name: 塩
+      amount: 適量
+      optional: false
+    - name: 粉チーズ
+      amount: 適量
+      optional: false
+    - name: バジル
+      amount: 適量
+      optional: false
+    - name: 豚のバラ肉
+      amount: 適量
+      optional: false
+  instructions:
+    - にんにくを揚げて、とりだす。
+    - 豚のバラ肉を炒める。
+    - ボールドトマトを入れる。
+    - 粉チーズ、バジル、にんにくを入れる。
+    - 塩で微調整。
+
+- name: ホワイトソース
+  ingredients:
+    - name: 白ワイン
+      amount: 大さじ2
+      optional: false
+    - name: 小麦粉
+      amount: 大さじ2-3
+      optional: false
+    - name: 牛乳
+      amount: 200ml
+      optional: false
+    - name: バター
+      amount: 適量
+      optional: false
+    - name: 塩
+      amount: 適量
+      optional: false
+    - name: 胡椒
+      amount: 適量
+      optional: false
+    - name: チキンスープ
+      amount: 200ml
+      optional: false
+    - name: 玉ねぎ
+      amount: 1個
+      optional: false
+  instructions:
+    - 玉ねぎを炒めて、取り出す。
+    - 小麦粉、バターを入れて炒める。
+    - チキンスープ、牛乳を少しずつ入れる。
+    - 炒めた玉ねぎを入れる。
+    - 塩、胡椒、白ワインを入れて微調整。
+
+- name: みそソース
+  ingredients:
+    - name: 味噌
+      amount: 大さじ1
+      optional: false
+    - name: オイスターソース
+      amount: 小さじ1
+      optional: false
+    - name: 醤油
+      amount: 適量
+      optional: false
+    - name: 砂糖
+      amount: 適量
+      optional: false
+    - name: にんにく
+      amount: 適量
+      optional: false
+    - name: しょうが
+      amount: 適量
+      optional: false
+  instructions:
+    - 混ぜる。
+
+- name: 沙爹醬
+  ingredients:
+    - name: 鷹の爪
+      amount: 適量
+      optional: false
+    - name: 玉ねぎ
+      amount: 0.5個
+      optional: false
+    - name: にんにく
+      amount: 適量
+      optional: false
+    - name: カレー粉
+      amount: 大さじ1
+      optional: false
+    - name: クミン
+      amount: 小さじ1-2
+      optional: false
+    - name: ターメリック
+      amount: 小さじ1-2
+      optional: false
+    - name: ココナツミルク
+      amount: 130ml
+      optional: false
+    - name: 蔗糖
+      amount: 大さじ2
+      optional: false
+    - name: ケチャップマニス(インドネシアの甘い調理用ソース)
+      amount: 大さじ3
+      optional: false
+    - name: タマリンドペースト
+      amount: 大さじ3
+      optional: false
+    - name: ピーナッツバター
+      amount: 大さじ2
+      optional: false
+    - name: 塩
+      amount: 適量
+      optional: false
+    - name: ピーナッツ
+      amount: 大さじ2
+      optional: false
+  instructions:
+    - 混ぜる。
+
+- name: 麻辣醬
+  ingredients:
+    - name: しょうゆ
+      amount: 大さじ1
+      optional: false
+    - name: こしょう
+      amount: 大さじ1
+      optional: false
+    - name: ラー油
+      amount: 大さじ1
+      optional: false
+    - name: ゴマ油
+      amount: 大さじ1
+      optional: false
+    - name: 花椒粉
+      amount: 大さじ1
+      optional: false
+    - name: 黒酢
+      amount: 大さじ1
+      optional: false
+    - name: 砂糖
+      amount: 大さじ1
+      optional: false
+    - name: 酒
+      amount: 大さじ1
+      optional: false
+    - name: 唐辛子
+      amount: 適量
+      optional: false
+    - name: ねりごま
+      amount: 大さじ2
+      optional: false
+    - name: にんにく
+      amount: 適量
+      optional: false
+    - name: 生姜
+      amount: 適量
+      optional: false
+    - name: 豆板醤
+      amount: 大さじ1
+      optional: false
+  instructions:
+    - 混ぜる。
