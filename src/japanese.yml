@@ -1,0 +1,64 @@
+---
+- name: 天ぷら
+  ingredients:
+    - name: 水
+      amount: 250ml
+      optional: false
+    - name: 炭酸水
+      amount: 250ml
+      optional: false
+    - name: 卵
+      amount: 1個
+      optional: false
+    - name: 小麦粉
+      amount: 300g
+      optional: false
+  instructions:
+    - 衣の素材を冷蔵庫に入れてしっかりと冷やす。
+    - 食材を給水シートで包んでしっかりと水分を吸収する。
+    - 水に卵を入れて表面に泡ができるまでかき混ぜる。
+    - 小麦粉を3回に分けて入れながら、8字を描くように混ぜる。
+    - 箸ですくってたらっと垂れるくらいになったら完成。
+    - 野菜は170度、魚介類は180度、分厚いものは190度が適温。
+    - 揚げる前に、小麦粉を薄くまとってから衣をつけて、1分弱揚げる。
+  
+- name: 
+  ingredients:
+    - name: しょうゆ
+      amount: 大さじ
+      optional: false
+    - name: こしょう
+      amount: 小さじ
+      optional: false
+    - name: ラー油
+      amount: 大さじ1
+      optional: false
+    - name: ゴマ油
+      amount: 大さじ1
+      optional: false
+    - name: 黒酢
+      amount: 大さじ1
+      optional: false
+    - name: 砂糖
+      amount: 大さじ1
+      optional: false
+    - name: 酒
+      amount: 大さじ1
+      optional: false
+    - name: 唐辛子
+      amount: 適量
+      optional: false
+    - name: ねりごま
+      amount: 大さじ2
+      optional: false
+    - name: にんにく
+      amount: 適量
+      optional: false
+    - name: 生姜
+      amount: 適量
+      optional: false
+    - name: 豆板醤
+      amount: 大さじ1
+      optional: false
+  instructions:
+    - 混ぜる。
