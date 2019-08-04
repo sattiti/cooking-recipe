@@ -1,4 +1,53 @@
 ---
+- name: 冷やしラーメン
+  ingredients:
+    a:
+      required:
+        - name: だし
+          amount: 200ml
+        - name: しょうゆ
+          amount: 大さじ2
+        - name: 練りゴマ
+          amount: 大さじ2
+        - name: 酢
+          amount: 大さじ2
+        - name: ごま油
+          amount: 大さじ2
+      optional:
+        - name: 味噌
+          amount: 大さじ1
+  instructions:
+    - 麺を茹でて、氷水で洗う。
+    - a を麺に入れて混ぜる。
+
+- name: サンダーアンダギー
+  ingredients:
+    a:
+      required:
+        - name: ホットケーキミックス
+          amount: 100ml
+        - name: ベーキングパウダー
+          amount: 小さじ2
+        - name: 薄力粉
+          amount: 100g
+        - name: 砂糖
+          amount: 砂糖
+        - name: 卵
+          amount: 1個
+        - name: 牛乳
+          amount: 小さじ1
+        - name: 塩
+          amount: 適量
+        - name: シナモン
+          amount: 適量
+      optional:
+        - name: ダシ
+          amount: 適量
+  instructions:
+    - a を混ぜる。
+    - ボールにするときにキャラメル一粒を入れたりして、バリエーションを増やす。
+    - 弱火であげる。
+
 - name: 天ぷら
   ingredients:
     a:
