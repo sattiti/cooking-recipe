@@ -1,41 +1,38 @@
 ---
 - name: 
   ingredients:
-    - name: しょうゆ
-      amount: 大さじ
-      optional: false
-    - name: こしょう
-      amount: 小さじ
-      optional: false
-    - name: ラー油
-      amount: 大さじ1
-      optional: false
-    - name: ゴマ油
-      amount: 大さじ1
-      optional: false
-    - name: 黒酢
-      amount: 大さじ1
-      optional: false
-    - name: 砂糖
-      amount: 大さじ1
-      optional: false
-    - name: 酒
-      amount: 大さじ1
-      optional: false
-    - name: 唐辛子
-      amount: 適量
-      optional: false
-    - name: ねりごま
-      amount: 大さじ2
-      optional: false
-    - name: にんにく
-      amount: 適量
-      optional: false
-    - name: 生姜
-      amount: 適量
-      optional: false
-    - name: 豆板醤
-      amount: 大さじ1
-      optional: false
+    a:
+      required:
+        - name: しょうゆ
+          amount: 大さじ
+        - name: こしょう
+          amount: 小さじ
+        - name: ラー油
+          amount: 大さじ1
+        - name: ゴマ油
+          amount: 大さじ1
+        - name: 黒酢
+          amount: 大さじ1
+      optional:
+        - name: 黒酢
+          amount: 大さじ1
+        - name: 酢
+          amount: 大さじ1
+    b:
+      required:
+        - name: 砂糖
+          amount: 大さじ1
+        - name: 酒
+          amount: 大さじ1
+        - name: 唐辛子
+          amount: 適量
+        - name: ねりごま
+          amount: 大さじ2
+        - name: にんにく
+          amount: 適量
+        - name: 生姜
+          amount: 適量
+        - name: 豆板醤
+          amount: 大さじ1
   instructions:
     - 混ぜる。
