@@ -1,0 +1,14 @@
+---
+- name: チーズ
+  ingredients:
+    required:
+      a:
+        - name: 牛乳
+          amount: 1L
+        - name: レモン汁
+          amount: 大さじ1
+  instructions:
+    - 牛乳を温めながら混ぜる。
+    - レモン汁をいれて塊ができたら火を止める。
+    - さらしザルに入れて水気を絞り出す。
+    - 冷蔵庫に入れて冷やす。

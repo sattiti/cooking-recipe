@@ -1,8 +1,8 @@
 ---
 - name: 
   ingredients:
-    a:
-      required:
+    required:
+      a:
         - name: しょうゆ
           amount: 大さじ
         - name: こしょう
@@ -13,13 +13,7 @@
           amount: 大さじ1
         - name: 黒酢
           amount: 大さじ1
-      optional:
-        - name: 黒酢
-          amount: 大さじ1
-        - name: 酢
-          amount: 大さじ1
-    b:
-      required:
+      b:
         - name: 砂糖
           amount: 大さじ1
         - name: 酒
@@ -33,6 +27,12 @@
         - name: 生姜
           amount: 適量
         - name: 豆板醤
+          amount: 大さじ1
+    optional:
+      a:
+        - name: 黒酢
+          amount: 大さじ1
+        - name: 酢
           amount: 大さじ1
   instructions:
     - 混ぜる。

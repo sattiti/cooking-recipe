@@ -1,8 +1,100 @@
 ---
+- name: 油揚げ煮込み
+  ingredients:
+    required:
+      a:
+        - name: 油揚げ
+        - amount: 数枚
+      b:
+        - name: 砂糖
+          amount: 大さじ2
+        - name: しょうゆ
+          amount: 大さじ1
+        - name: だし
+          amount: 大さじ2
+        - name: みりん
+          amount: 大さじ1
+        - name: 酒
+          amount: 大さじ1
+        - name: 水
+          amount: 大さじ1
+  instructions:
+    - 中火で煮込む。
+ 
+- name: とんかつ
+  ingredients:
+    required:
+      a:
+        - name: 豚肉(ロース)
+        - amount: 4枚
+      b:
+        - name: 塩
+          amount: 適量
+        - name: コショウ
+          amount: 適量
+      c:
+        - name: 小麦粉
+          amount: 150g
+        - name: 卵
+          amount: 1個
+        - name: パン粉
+          amount: 適量
+        - name: 油
+          amount: 適量   
+    optional:
+      a:
+        - name: 牛乳
+          amount: 大さじ1
+        - name: ビール
+          amount: 大さじ1
+        - name: マヨネーズ
+          amount:  大さじ1
+  instructions:
+    - 肉を叩いて伸ばす。
+    - required[b] を入れて、10分ほど置く。
+    - 肉に小麦粉を両面にまんべんなくつけ、余分な粉を落とす。
+    - 卵に optional[a] を加えてとく。
+    - 肉を卵液につける。
+    - 肉をパン粉につける。パン粉をつけたらしばらく放置。
+    - 170度であげる。小さい泡がたくさん出ているがこれが大きい泡になってきたら肉をひっくり返す。
+    - 肉を1度取り出して、しばらく休ませる。
+    - 180度以上で2度揚げする。
+
+- name: 親子丼
+  ingredients:
+    required:
+      a:
+        - name: 鳥肉
+        - amount: 適量
+        - name: 三つ葉
+        - amount: 適量
+        - name: ごぼう
+        - amount: 適量
+        - name: 卵
+        - amount: 4個
+      b:
+        - name: だし
+          amount: お玉2
+        - name: しょうゆ
+          amount: お玉1
+        - name: みりん
+          amount: お玉1
+        - name: 酒
+          amount: お玉2
+        - name: 砂糖
+          amount: 大さじ1
+        - name: 砂糖
+          amount: 大さじ1
+  instructions:
+    - 鳥肉を焼く。
+    - b を入れる。
+    - 卵を段階的にわけて入れる。
+    - 蓋を閉めてて、しばらくすると完成。
+
 - name: 冷やしラーメン
   ingredients:
-    a:
-      required:
+    required:
+      a:
         - name: だし
           amount: 200ml
         - name: しょうゆ
@@ -13,7 +105,8 @@
           amount: 大さじ2
         - name: ごま油
           amount: 大さじ2
-      optional:
+    optional:
+      a:
         - name: 味噌
           amount: 大さじ1
   instructions:
@@ -22,8 +115,8 @@
 
 - name: サンダーアンダギー
   ingredients:
-    a:
-      required:
+    required:
+      a:
         - name: ホットケーキミックス
           amount: 100ml
         - name: ベーキングパウダー
@@ -40,7 +133,8 @@
           amount: 適量
         - name: シナモン
           amount: 適量
-      optional:
+    optional:
+      a:
         - name: ダシ
           amount: 適量
   instructions:
@@ -50,8 +144,8 @@
 
 - name: 天ぷら
   ingredients:
-    a:
-      required:
+    required:
+      a:
         - name: 水
           amount: 250ml
         - name: 炭酸水

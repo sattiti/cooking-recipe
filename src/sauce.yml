@@ -1,8 +1,8 @@
 ---
 - name: BBQSauce
   ingredients:
-    a:
-      required:
+    required:
+      a:
         - name: ケチャップ
           amount: 大さじ8
         - name: ソース
@@ -25,7 +25,8 @@
           amount: 大さじ1
         - name: 水
           amount: 大さじ2
-      optional:
+    optional:
+      a:
         - name: パプリカ粉
           amount: 適量
         - name: はちみつ
@@ -36,8 +37,8 @@
 
 - name: 南蛮ソース
   ingredients:
-    a:
-      required:
+    required:
+      a:
         - name: - 醤油
           amount: 大さじ2
         - name: - 酢
@@ -55,8 +56,8 @@
 
 - name: オニオンソース
   ingredients:
-    a:
-      required:
+    required:
+      a:
         - name: 玉ねぎ
           amount: 0.5個
         - name: 醤油
@@ -70,8 +71,8 @@
 
 - name: トマトソース
   ingredients:
-    a:
-      required:
+    required:
+      a:
         - name: ボールドトマト
           amount: 1缶
         - name: ニンニク
@@ -95,8 +96,8 @@
 
 - name: ホワイトソース
   ingredients:
-    a:
-      required:
+    required:
+      a:
         - name: 白ワイン
           amount: 大さじ2
         - name: 小麦粉
@@ -122,8 +123,8 @@
 
 - name: みそソース
   ingredients:
-    a:
-      required:
+    required:
+      a:
         - name: 味噌
           amount: 大さじ1
         - name: オイスターソース
@@ -141,8 +142,8 @@
 
 - name: 沙爹醬
   ingredients:
-    a:
-      requieed:
+    required:
+      a:
         - name: 鷹の爪
           amount: 適量
         - name: 玉ねぎ
@@ -174,8 +175,8 @@
 
 - name: 麻辣醬
   ingredients:
-    a:
-      required:
+    required:
+      a:
         - name: しょうゆ
           amount: 大さじ1
         - name: こしょう
