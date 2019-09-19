@@ -1,4 +1,23 @@
 ---
+- name: レッドサルサ
+  ingredients:
+    required:
+      a:
+        - name: にんにく
+          amount: 1粒
+        - name: 塩
+          amount: 適量
+        - name: 水
+          amount: 適量
+        - name: 唐辛子
+          amount: 適量
+        - name: トマト
+          amount: 2個
+  instructions:
+    - 唐辛子を炙る
+    - ミキサーで混ぜる。
+    - 加熱。
+
 - name: BBQSauce
   ingredients:
     required:
