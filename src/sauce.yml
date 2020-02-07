@@ -1,4 +1,31 @@
 ---
+- name: ホワイトソース
+  ingredients:
+    required:
+      a:
+        - name: バター
+          amount: 適量
+        - name: 小麦粉
+          amount: 適量
+      b:
+        - name: ミルク
+          amount: 適量
+      c:
+        - name: 玉ねぎ
+          amount: 1玉
+      d:
+        - name: ニンニク
+          amount: 適量
+        - name: 塩
+          amount: 適量
+        - name: こしょう
+          amount: 適量
+  instructions:
+    - c を炒める。
+    - a を弱火で炒める。
+    - b をすこしずつ投入しながら混ぜる。
+    - d を投入。
+
 - name: レッドサルサ
   ingredients:
     required:
