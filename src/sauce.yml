@@ -46,10 +46,14 @@
           amount: 2個
         - name: オリーブオイル
           amount: 適量
+        - name: 砂糖
+          amount: 適量
     optional:
       a:
         - name: セロリ
           amount: 適量
+        - name: アボガド
+          amount: 1個
   instructions:
     - 唐辛子を炙る
     - ミキサーで混ぜる。
