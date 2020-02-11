@@ -34,12 +34,22 @@
           amount: 1粒
         - name: 塩
           amount: 適量
-        - name: 水
+        - name: レモン
+          amount: 1個
+        - name: ピーマン
           amount: 適量
+        - name: 玉ねぎ
+          amount: 1個
         - name: 唐辛子
           amount: 適量
         - name: トマト
           amount: 2個
+        - name: オリーブオイル
+          amount: 適量
+    optional:
+      a:
+        - name: セロリ
+          amount: 適量
   instructions:
     - 唐辛子を炙る
     - ミキサーで混ぜる。
