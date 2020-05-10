@@ -1,4 +1,22 @@
 ---
+- name: トルティーヤ
+  ingredients:
+    required:
+      a:
+        - name: 薄力粉
+          amount: 200g
+        - name: 塩
+          amount: 適量
+        - name: 油
+          amount: 大さじ1
+        - name: 温水
+          amount: 100ml
+  instructions:
+    - a を混ぜて、5分ほどこねる。
+    - 20分ほど休ませる。
+    - 棒で 1枚あたり16cmに伸ばす。
+    - 焼く。
+
 - name: チーズ
   ingredients:
     required:
